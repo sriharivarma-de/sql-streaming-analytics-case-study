@@ -2,6 +2,8 @@
 📌 Project Overview
 This repository contains a 20-query deep dive into the relational database logic of a fictional streaming platform. The project moves beyond basic CRUD operations to solve complex business problems, such as auditing recommendation engines, tracking subscription lifecycle, and calculating relative payment benchmarks.
 
+![Database ER Diagram](Netflix_ER_Diagram.png)
+
 🧠 Key Technical Concepts
 Correlated Subqueries: Implementing row-by-row "handshakes" to track time-sensitive user actions (e.g., verifying if a watch happened after a recommendation).
 
